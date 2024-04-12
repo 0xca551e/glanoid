@@ -1,5 +1,5 @@
 name = "glanoid"
-version = "1.0.0"
+version = "1.0.1"
 description = "nanoid ported to gleam"
 
 # Fill out these fields if you intend to generate HTML documentation or publish

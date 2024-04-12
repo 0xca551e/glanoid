@@ -1,7 +1,6 @@
 import gleam/bool
 import gleam/crypto
 import gleam/int
-import gleam/io
 import gleam/string
 
 pub const default_alphabet = "useandom-26T198340PX75pxJACKVERYMINDBUSHWOLF_GQZbfghjklqvwyzrict"

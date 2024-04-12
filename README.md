@@ -25,7 +25,7 @@ import glanoid
 import gleam/io
 
 pub fn main() {
-  let nanoid = glanoid.make_generator(glanoid.default_alphabet)
+  let assert Ok(nanoid) = glanoid.make_generator(glanoid.default_alphabet)
   nanoid(18)
   |> io.debug() // "bppqBa-4eNFW_yPzib"
 }
@@ -38,7 +38,7 @@ import glanoid
 import gleam/io
 
 pub fn main() {
-  let nanoid = glanoid.make_generator("lucy")
+  let assert Ok(nanoid) = glanoid.make_generator("lucy")
   nanoid(18)
   |> io.debug() // "lluucyuyulycyucucy"
 }
